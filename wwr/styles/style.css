@@ -27,7 +27,7 @@ main section{
 
 #background{
     height: 725px;
-    background-color: #F8F8FF;
+    background-color: #deb887;
 }
 
 body {
@@ -35,7 +35,7 @@ body {
 }
 
 header{
-    background-color: #F8F8FF;
+    background-color: #deb887;
 }
 
 nav a:hover{
@@ -50,7 +50,7 @@ nav a:hover{
 }
 
 .join{
-    background-color: #F8F8FF;
+    background-color: #deb887;
     color:#3b753b;
     text-decoration: none;
 }
@@ -66,12 +66,12 @@ nav a:hover{
 }
 
 .msg{
-    background-color: #F8F8FF;
+    background-color:#deb887;
     color:#3b753b;
 }
 
 footer{
-    background-color: #F8F8FF;
+    background-color: #deb887;
 }
 
 home.title{
@@ -121,4 +121,8 @@ footer p{
 
 footer p a:hover{
     text-decoration: underline;
+}
+
+section h2 p a{
+    background-color: #deb887;
 }
