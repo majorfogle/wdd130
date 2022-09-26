@@ -144,7 +144,6 @@
 } 
 .yellow5 {
   width: 100%; 
-  height: 250px; 
   background-color: gold; 
   grid-column: 1/4;
 
@@ -161,6 +160,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr ;
+  width: 600px;
 }
 .red6 {
   width: 400px; 
