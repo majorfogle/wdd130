@@ -307,3 +307,58 @@ footer p a:hover{
         margin-top: 25px;
     }
 }
+
+/*-------Rates and Dates----------*/
+
+#ratescontent{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#banner{
+    text-align: center;
+}
+
+#rates-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.bigrates-box{
+    width: 400px;
+    height: 600px;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;
+}
+
+.box1{
+    grid-column: 1/2;
+    grid-row: 1/2;    
+}
+
+.box2{
+    grid-column: 2/3;
+    grid-row: 1/2;    
+}
+
+.smallrates-box{
+    width: 400px;
+    height: 500px;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;  
+} 
+
+.box3{
+    grid-column: 1/2;
+    grid-row: 2/3;    
+}
+
+.box4{
+    grid-column: 2/3;
+    grid-row: 2/3;    
+}
+
+
+
