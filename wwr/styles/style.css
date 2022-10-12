@@ -266,10 +266,7 @@ footer p a:hover{
 /*---------Don't add anything below this line-----*/
 
 
-@media screen and (max-width: 900px) {
-    #hero, .home-grid {
-        display: block;
-        height: auto;
+
     }
     nav, footer {
         flex-direction: column;
@@ -313,28 +310,53 @@ footer p a:hover{
 #ratescontent{
     max-width: 1200px;
     margin: 0 auto;
+    text-align: center;   
+}
+
+#ratescontent main{
+    background-color: white;
+    text-align: center;
 }
 
 #banner{
     text-align: center;
+    background-color: #3b753b;
 }
 
 #rates-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; 
     grid-gap: 20px;
+    justify-content: center;
+    
 }
 .bigrates-box{
     width: 400px;
     height: 600px;
-    border: 15px solid black;
+    border: 30px solid #deb887;
     padding: 50px;
     margin: 20px;
 }
-
+ul{
+    justify-content: center;
+}
 .box1{
     grid-column: 1/2;
     grid-row: 1/2;    
+}
+
+.box1 ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+}
+
+
+.box1 li{
+    width: 100px;
+    margin: 10px;
 }
 
 .box2{
@@ -342,10 +364,24 @@ footer p a:hover{
     grid-row: 1/2;    
 }
 
+.box2 ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+}
+
+
+.box2 li{
+    width: 100px;
+    margin: 10px;
+}
+
 .smallrates-box{
     width: 400px;
     height: 500px;
-    border: 15px solid black;
+    border: 30px solid #deb887;
     padding: 50px;
     margin: 20px;  
 } 
@@ -355,10 +391,65 @@ footer p a:hover{
     grid-row: 2/3;    
 }
 
+.box3 ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+}
+
+
+.box3 li{
+    width: 100px;
+    margin: 10px;
+}
+
 .box4{
     grid-column: 2/3;
     grid-row: 2/3;    
 }
 
+.box4 ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+}
 
 
+.box4 li{
+    width: 100px;
+    margin: 10px;
+}
+
+.box-img1, .box-img2, .box-img3, .box-img4{
+    width:50px;
+    height:50px;
+    
+}
+
+.bigrates-box div{
+    font-size: .75em;
+}
+
+.smallrates-box div{
+    font-size: .75em;
+}
+.booknow{
+    background-color: #deb887;
+    color:#3b753b;
+    text-decoration: none;
+    font-family: "verdana", "tahoma", "georgia" ;
+    font-size: 1em;
+    padding: 5px 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+        width: auto;
