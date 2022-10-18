@@ -1,73 +1,171 @@
 /*---------All Pages-----------*/
-header{
 
+/*-------HEADER---------*/
+header{
+    background-color:#00689a;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
+.logo{
+    width: 80px
+}
+
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav a{
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    font-family:"Optima", "#", "#";
+    font-size: 1em;
+    padding: 35px;
+}
+
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+
+nav{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*------FOOTER------*/
 
 footer{
-
+    background-color: #00689a;
+    font-family:"Optima", "#", "#";
+    font-size: 1em;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white
 }
 
-#content {
+footer a{
+    color:white;
+    text-decoration: none;
+    font-size: 1em;
+    text-decoration: underline;
+}
+
+footer .link:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+footer .social img{
+    padding-top: 15px;
+    margin-right: 30px;
+}
+
+/*---------BODY----------*/
+
+body{
     max-width: 1600px;
     margin: 0 auto;
-    background-color:#a3af9e;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(9 1fr);
+    background-color:#006400;
 }
+   
+
 
 /*-------Home Page---------*/
-.title{
-    grid-column: 1/4;
-    grid-row: 1/2;
+
+#hometitle{
+    display: grid;
     font-size: 50px;
+    text-align: center;
+   
     
+}
+#bodygrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    background-color: #a3af9e;
 }
 
 #para1{
     grid-column: 1/3;
-    grid-row: 2/4;
+    grid-row: 1/3;
+    padding: 30px;
+    font-size: 2em;
 }
 
 #coverimg1{
     grid-column: 3/4;
-    grid-row:2/5 ;
-    width: 100px;
-
+    grid-row:1/4 ;
+    width: 400px;
+    border:white;
+    border-style: solid;
+    border-width: thick;
+    text-align: left;
+    
 }
 
 #coverimg2{
     grid-column:1/2;
-    grid-row:4/7 ;
-    width: 100px;
+    grid-row:3/6 ;
+    width: 400px;
+    border:white;
+    border-style: solid;
+    border-width: thick;
 }
 
 #para2{
     grid-column:2/4 ;
-    grid-row:5/7 ;
+    grid-row:3/6 ;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 2em;
+    text-align: left;
 }
 
-.subtitle{
-    grid-column:1/4 ;
-    grid-row:7/8 ;
+#homesubtitle{
+    display:grid;
+    text-align: center;
+    font-size: 25px;
 }
 
-#bsname{
+#bottomgrid{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+#bsname img{
     grid-column:1/2 ;
-    grid-row:8/10 ;
-    width: 100px;
+    max-width: 400px;
+    border:white;
+    border-style: solid;
+    border-width: thick;
+    
 }
 
-#jwname{
+#jwname img{
     grid-column:2/3;
-    grid-row:8/10;
-    width: 100px;
+    max-width: 400px;
+    border:white;
+    border-style: solid;
+    border-width: thick;
 }
 
-#faname{
+#faname img{
     grid-column:3/4 ;
-    grid-row:8/10 ;
-    width: 100px;
+    max-width: 400px;
+    border:white;
+    border-style: solid;
+    border-width: thick;
 }
 
 /*-------Brandon Sanderson Page-------*/
