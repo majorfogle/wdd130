@@ -5,9 +5,14 @@ header{
     background-color:#00689a;
     display: grid;
     grid-template-columns: 150px auto;
+    margin: auto;
+    text-align: center;
+
+   
+
 }
 .logo{
-    width: 80px
+    width: 100px
 }
 
 #logo_link{
@@ -20,9 +25,9 @@ nav a{
     text-align: center;
     color:white;
     text-decoration: none;
-    font-family:"Optima", "#", "#";
+    font-family:"Optima", Helvetica, sans-serif;
     font-size: 1em;
-    padding: 35px;
+    padding:50px;
 }
 
 nav a:hover{
@@ -40,17 +45,17 @@ nav{
 
 footer{
     background-color: #00689a;
-    font-family:"Optima", "#", "#";
+    font-family:"Optima", Helvetica, sans-serif;
     font-size: 1em;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color:white
 }
 
-footer a{
+footer .link{
     color:white;
     text-decoration: none;
     font-size: 1em;
@@ -73,7 +78,8 @@ footer .social img{
 body{
     max-width: 1600px;
     margin: 0 auto;
-    background-color:#006400;
+    background-color:#96afb8;
+    font-family: "Optima", Helvetica, sans-serif;
 }
    
 
@@ -81,33 +87,36 @@ body{
 /*-------Home Page---------*/
 
 #hometitle{
-    display: grid;
+    display:grid;
+    width:100%;
+    grid-column: 1/4;
     font-size: 50px;
+    font-family:"Univers", Myriad, "Gill Sans" ;
     text-align: center;
-   
-    
 }
+
 #bodygrid{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    background-color: #a3af9e;
+    background-color: #96AFB8;
+    gap: 2em;
+    padding: 2em;
 }
 
 #para1{
     grid-column: 1/3;
     grid-row: 1/3;
     padding: 30px;
-    font-size: 2em;
+    font-size: 1.25em;
 }
 
 #coverimg1{
     grid-column: 3/4;
-    grid-row:1/4 ;
+    grid-row:1/3 ;
     width: 400px;
-    border:white;
-    border-style: solid;
-    border-width: thick;
+    border:10px solid black;
+    box-shadow: 5px 5px 10px #6f7364;
     text-align: left;
     
 }
@@ -116,9 +125,8 @@ body{
     grid-column:1/2;
     grid-row:3/6 ;
     width: 400px;
-    border:white;
-    border-style: solid;
-    border-width: thick;
+    border:10px solid black;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 #para2{
@@ -126,7 +134,7 @@ body{
     grid-row:3/6 ;
     padding-left: 30px;
     padding-right: 30px;
-    font-size: 2em;
+    font-size: 1.25em;
     text-align: left;
 }
 
@@ -146,27 +154,41 @@ body{
 #bsname img{
     grid-column:1/2 ;
     max-width: 400px;
-    border:white;
+    border:black;
     border-style: solid;
     border-width: thick;
-    
+    box-shadow: 5px 5px 10px #6f7364;
+}
+#bsname img:hover{
+    opacity: .6;
+    transform: scale(1.1);   
 }
 
 #jwname img{
     grid-column:2/3;
     max-width: 400px;
-    border:white;
+    border:black;
     border-style: solid;
     border-width: thick;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
+#jwname img:hover{
+    opacity: .6;
+    transform: scale(1.1); 
+}
 #faname img{
     grid-column:3/4 ;
     max-width: 400px;
-    border:white;
+    border:black;
     border-style: solid;
     border-width: thick;
+    box-shadow: 5px 5px 10px #6f7364;
 }
+
+#faname img:hover{
+    opacity: .6;
+    transform: scale(1.1); 
 
 /*-------Brandon Sanderson Page-------*/
 
