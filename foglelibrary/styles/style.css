@@ -12,7 +12,7 @@ header{
 
 }
 .logo{
-    width: 100px
+    width: 50px
 }
 
 #logo_link{
@@ -27,7 +27,7 @@ nav a{
     text-decoration: none;
     font-family:"Optima", Helvetica, sans-serif;
     font-size: 1em;
-    padding:50px;
+    padding:25px;
 }
 
 nav a:hover{
@@ -93,6 +93,11 @@ body{
     font-size: 50px;
     font-family:"Univers", Myriad, "Gill Sans" ;
     text-align: center;
+    background-color: white;
+}
+
+.logo2{
+    width:30%;
 }
 
 #bodygrid{
