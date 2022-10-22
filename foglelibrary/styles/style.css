@@ -38,56 +38,88 @@ nav{
     display: flex;
     justify-content: space-around;
 }
+
+/*------Author Pages------*/
+
 .title{
     font-size: 30px;
     font-family:"Univers", Myriad, "Gill Sans" ;
     text-align: center;
     padding:25px;
+    font-variant: small-caps;
 }
 
 .author-page{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    gap: 2em;
+    padding:2em;
 }
 
 .bookcover{
     width: 200px;
     height: 300px;
+    border-width: 2px;
+    box-shadow: 5px 5px 10px #6f7364;
 }
+
 .banner{
     grid-column: 1/5;
     grid-row: 1/4;
-    width:100%;
+    width:85%;
+    border:black;
+    border-style: outset;
+    border-width: 20px;
 }
 .subtitle{
     grid-column:1/5;
     grid-row: 4/5;
     width: 100%;
+    text-align: center;
+    font-size:20px;
 }
 .book1{
     grid-column: 1/2;
-    grid-row:5/7
+    grid-row:5/7;
+    
 }
 .book2{
     grid-column: 2/3;
-    grid-row:5/7
+    grid-row:5/7;
 }
 .book3{
     grid-column: 3/4;
-    grid-row:5/7
+    grid-row:5/7;
 }
 .book4{
     grid-column: 4/5;
     grid-row:5/7
 }
+.quote{
+    font-size: 1em;
+}
 .headshot{
     grid-column: 5/7;
-    grid-row: 1/3;
+    grid-row: 1/4;
+    border:white;
+    border-radius: 3px;
 }
+
 .biotext{
     grid-column: 5/7;
     grid-row: 3/7;
+    padding-top:3em;
+}
+
+.biolink{
+    text-align:center;
+    background-color: #00689a;
+    color:white;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 5px 20px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 /*------FOOTER------*/
 
@@ -274,9 +306,12 @@ body{
     grid-row: 1/2;
 }
 
-
-
 /*-------Brandon Sanderson Page-------*/
 
+#bsbio #bsheadshot{
+    width:100%;
+    border:white;
+    border-radius: 3px;
+}
 
 /*--------Jeff Wheeler Page---------*/
