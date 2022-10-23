@@ -315,3 +315,14 @@ body{
 }
 
 /*--------Jeff Wheeler Page---------*/
+
+#jwbio .jwheadshot{
+    width:100%;
+    border:4px solid #000;
+    border-radius: 3px;
+}
+
+.jwheadshot{
+    width: 300px;
+    height: 350px;
+}
